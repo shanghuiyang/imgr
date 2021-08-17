@@ -11,7 +11,6 @@ import (
 )
 
 const (
-	// replace your_app_key and your_secret_key with yours
 	apiKey    = "your_baidu_api_key"
 	secretKey = "your_baidu_secret_key"
 )
