@@ -24,7 +24,7 @@ func main() {
     imgf := "images/dog.jpg"
 	img, err := ioutil.ReadFile(imgf)
 	if err != nil {
-		fmt.Printf("failed to read image file: %v, error: %v\n", imgf, err)
+		log.Printf("failed to read image file: %v, error: %v", imgf, err)
 		os.Exit(1)
 	}
 
